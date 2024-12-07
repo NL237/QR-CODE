@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+	@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+	body{
+		background-color: hsl(212, 45%, 89%);
+		margin: 0;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 100vh;
+	}
+	#tab{
+		background-color: hsl(0, 0%, 100%);
+		padding: 15px;
+		border-radius: 15px;
+		width: 300px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+	}
+	img{
+		width: 100%;
+		border-radius: 5px;
+	}
+	p{
+		font-size: 15px;
+	}
+	p,h3{
+		font-family: 'Outfit';
+		text-align: center;
+	}
+  </style>
+</head>
+<body>
+		<div id='tab'>
+			<img src='images/image-qr-code.png' alt='Code QR'>
+			<section>
+				<h3>Improve your front-end skills by building projects</h3>
+				<p>Scan the QR code to visit Frontend Mentor 
+				and take your coding skills to the next level</p>
+			</section>
+		</div>
+  
+</body>
+</html>
